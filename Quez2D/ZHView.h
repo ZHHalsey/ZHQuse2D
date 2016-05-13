@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ZHView.h
 //  Quez2D
 //
 //  Created by ZZZZZ on 15/11/6.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ZHView : UIView
 
-@property (strong, nonatomic) UIWindow *window;
+- (void)clearBtn;
 
-
+- (void)backBtn;
 @end
-
